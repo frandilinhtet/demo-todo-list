@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+/coverage
+
+# production
+/build
+/dist
+
+# secrets
+.env
+
+# git
+.git
+.gitignore
+
+# docker files
+Dockerfile
