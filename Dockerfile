@@ -1,5 +1,5 @@
 # Stage 1: Build dependencies and the application
-FROM node:20-alpine as build-stage
+FROM node:20-alpine AS build-stage
 
 WORKDIR /app
 
