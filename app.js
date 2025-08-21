@@ -18,6 +18,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Middleware
 app.use(express.json());
+app.use(cors());
 
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
