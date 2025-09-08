@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const priorityInput = document.getElementById('priority-input');
     const categoryInput = document.getElementById('category-input');
     const addTodoBtn = document.getElementById('add-todo-btn');
-    const API_URL = 'http://13.229.226.182:3000/api/todos';
+    const API_URL = 'http://127.0.0.1:3000/api/todos';
 
     // Helper function to convert priority number to stars
     const getPriorityStars = (priority) => {
